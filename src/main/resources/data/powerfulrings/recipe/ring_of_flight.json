@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "nNn",
+        "IZI",
+        "nIn"
+    ],
+    "key": {
+        "n": "minecraft:netherite_ingot",
+        "N": "minecraft:netherite_upgrade_smithing_template",
+        "I": "minecraft:netherite_scrap",
+        "Z": "minecraft:netherite_block"
+    },
+    "result": {
+        "id": "powerfulrings:ring_of_flight",
+        "count": 1
+    }
+}

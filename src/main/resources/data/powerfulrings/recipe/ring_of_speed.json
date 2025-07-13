@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N#",
+        "DDD",
+        "#D#"
+    ],
+    "key": {
+        "#": "minecraft:emerald",
+        "N": "minecraft:netherite_upgrade_smithing_template",
+        "D": "minecraft:diamond"
+    },
+    "result": {
+        "id": "powerfulrings:ring_of_speed",
+        "count": 1
+    }
+}

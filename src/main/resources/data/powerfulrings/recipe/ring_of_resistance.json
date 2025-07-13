@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#G#",
+        "gLg",
+        "#g#"
+    ],
+    "key": {
+        "#": "minecraft:emerald",
+        "G": "minecraft:gold_nugget",
+        "g": "minecraft:gold_ingot",
+        "L": "minecraft:gold_block"
+    },
+    "result": {
+        "id": "powerfulrings:ring_of_resistance",
+        "count": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "nNn",
+        "nnn",
+        "nnn"
+    ],
+    "key": {
+        "n": "minecraft:netherite_ingot",
+        "N": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "result": {
+        "id": "powerfulrings:ponerite_chestplate",
+        "count": 1
+    }
+}

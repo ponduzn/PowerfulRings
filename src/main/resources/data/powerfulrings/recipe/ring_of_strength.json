@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iIi",
+        "GEG",
+        "iGi"
+    ],
+    "key": {
+        "i": "minecraft:iron_ingot",
+        "I": "minecraft:iron_block",
+        "G": "minecraft:golden_apple",
+        "E": "minecraft:emerald_block"
+    },
+    "result": {
+        "id": "powerfulrings:ring_of_strength",
+        "count": 1
+    }
+}

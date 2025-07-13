@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " ##",
+        " /#",
+        "/  "
+    ],
+    "key": {
+        "#": "minecraft:netherite_pickaxe",
+        "/": "minecraft:blaze_rod"
+    },
+    "result": {
+        "id": "powerfulrings:ponerite_pickaxe",
+        "count": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N#",
+        "EEE",
+        "#E#"
+    ],
+    "key": {
+        "#": "minecraft:diamond",
+        "N": "minecraft:netherite_upgrade_smithing_template",
+        "E": "minecraft:emerald"
+    },
+    "result": {
+        "id": "powerfulrings:ring_of_haste",
+        "count": 1
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "powerfulrings:item/ring_of_resistance"
+  }
+}

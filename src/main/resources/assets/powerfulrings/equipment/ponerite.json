@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "powerfulrings:ponerite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "powerfulrings:ponerite"
+      }
+    ]
+  }
+}
