@@ -1,14 +1,19 @@
 package powerfulrings.powerfulringsmod.item;
 
+import net.minecraft.component.type.TooltipDisplayComponent;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
 import net.minecraft.world.World;
+import net.minecraft.text.Text;
+import java.util.function.Consumer;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -75,5 +80,17 @@ public class RingOfFlight extends Item {
         if (toggled && !hasRing && !player.isCreative() && !player.isSpectator()) {
             disableFlight(player);
         }
+    }
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, TooltipDisplayComponent displayComponent, Consumer<Text> textConsumer, TooltipType type) {
+        String RING_ENABLED = "ON";
+        String RING_DISABLED = "OFF";
+        
+	    if (hasGlint(stack) == true) {
+        textConsumer.accept(Text.translatable("Ring is toggled: " + RING_ENABLED).formatted(Formatting.RED));
+        }
+        else {
+            textConsumer.accept(Text.translatable("Ring is toggled: " + RING_DISABLED).formatted(Formatting.RED));
+	    }
     }
 }
