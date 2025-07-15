@@ -5,6 +5,9 @@
     "#minecraft:shovels",
     "#minecraft:hoes",
     "minecraft:shears",
-    "powerfulrings:ponerite_pickaxe"
+    "powerfulrings:ponerite_pickaxe",
+	"powerfulrings:ponerite_axe",
+	"powerfulrings:ponerite_shovel",
+	"powerfulrings:ponerite_hoe"
   ]
 }

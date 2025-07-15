@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#minecraft:axes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels",
+    "#minecraft:hoes",
+	"powerfulrings:ponerite_axe",
+	"powerfulrings:ponerite_pickaxe",
+	"powerfulrings:ponerite_shovel",
+	"powerfulrings:ponerite_hoe"
+  ]
+}

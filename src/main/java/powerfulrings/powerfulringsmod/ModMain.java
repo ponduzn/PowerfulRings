@@ -11,7 +11,7 @@ public class ModMain implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        ModItems.initialize();
+        ModItems.registerModItems();
 
         ServerTickEvents.END_SERVER_TICK.register(server -> {
             for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList()) {

@@ -68,7 +68,7 @@ public class BaseEffectRing extends Item {
         boolean toggledOn = isToggledOn();
 
         if (hasThisRing && toggledOn) {
-            player.addStatusEffect(new StatusEffectInstance(effect, 210, amplifier, true, true, true));
+            player.addStatusEffect(new StatusEffectInstance(effect, 25, amplifier, true, true, true));
         }
 
         super.inventoryTick(stack, world, entity, slot);
@@ -89,10 +89,12 @@ public class BaseEffectRing extends Item {
         String RING_DISABLED = "OFF";
         
 	    if (hasGlint(stack) == true) {
-        textConsumer.accept(Text.translatable("Ring is toggled: " + RING_ENABLED).formatted(Formatting.RED));
+        textConsumer.accept(Text.translatable("Ring is toggled: ").formatted(Formatting.WHITE));
+        textConsumer.accept(Text.translatable(RING_ENABLED).formatted(Formatting.GOLD));
         }
         else {
-            textConsumer.accept(Text.translatable("Ring is toggled: " + RING_DISABLED).formatted(Formatting.RED));
+            textConsumer.accept(Text.translatable("Ring is toggled: ").formatted(Formatting.WHITE));
+            textConsumer.accept(Text.translatable(RING_DISABLED).formatted(Formatting.RED));
 	    }
     }
 }

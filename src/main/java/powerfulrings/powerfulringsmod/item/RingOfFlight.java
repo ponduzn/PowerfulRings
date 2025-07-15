@@ -87,10 +87,12 @@ public class RingOfFlight extends Item {
         String RING_DISABLED = "OFF";
         
 	    if (hasGlint(stack) == true) {
-        textConsumer.accept(Text.translatable("Ring is toggled: " + RING_ENABLED).formatted(Formatting.RED));
+        textConsumer.accept(Text.translatable("Ring is toggled: ").formatted(Formatting.WHITE));
+        textConsumer.accept(Text.translatable(RING_ENABLED).formatted(Formatting.GOLD));
         }
         else {
-            textConsumer.accept(Text.translatable("Ring is toggled: " + RING_DISABLED).formatted(Formatting.RED));
+            textConsumer.accept(Text.translatable("Ring is toggled: ").formatted(Formatting.WHITE));
+            textConsumer.accept(Text.translatable(RING_DISABLED).formatted(Formatting.RED));
 	    }
     }
 }
