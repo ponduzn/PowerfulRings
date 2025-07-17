@@ -1,0 +1,7 @@
+// 1.21.7	-999999999-01-01T00:00:00	Powerful Rings/
+ee85c843b46bc5fda1a8d48349fa084293d9fa60 data/powerfulrings/worldgen/configured_feature/ponerite_ore.json
+c3f3d8daa241a4928f4d03b6b54bc17423ed1a68 data/powerfulrings/worldgen/configured_feature/ponerite_ore_end.json
+5571ad86500b1795bfa1ed047b4e595f2327db0a data/powerfulrings/worldgen/configured_feature/ponerite_ore_nether.json
+c2eb3bb5889e85d452a5370ff00b1f0d5edf6b96 data/powerfulrings/worldgen/placed_feature/ponerite_ore_end_placed.json
+7e39fd1d6a632cc5e73169adddf0dc8734fbd8ab data/powerfulrings/worldgen/placed_feature/ponerite_ore_nether_placed.json
+146743d96784b61639eb0f267f7cd1336077e398 data/powerfulrings/worldgen/placed_feature/ponerite_ore_placed.json

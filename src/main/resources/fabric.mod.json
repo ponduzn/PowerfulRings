@@ -17,6 +17,12 @@
 	"entrypoints": {
 		"main": [
 			"powerfulrings.powerfulringsmod.ModMain"
+		],
+		"client": [
+			"com.powerfulrings.PowerfulringsClient"
+		],
+		"fabric-datagen": [
+			"com.powerfulrings.PowerfulringsDataGenerator"
 		]
 	},
 	"mixins": [

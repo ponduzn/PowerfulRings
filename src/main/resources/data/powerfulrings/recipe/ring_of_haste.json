@@ -8,7 +8,7 @@
     "key": {
         "#": "minecraft:diamond",
         "N": "minecraft:netherite_upgrade_smithing_template",
-        "E": "minecraft:emerald"
+        "E": "powerfulrings:ponerite_ingot"
     },
     "result": {
         "id": "powerfulrings:ring_of_haste",

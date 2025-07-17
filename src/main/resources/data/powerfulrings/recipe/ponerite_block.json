@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": "powerfulrings:ponerite_ingot"
+    },
+    "result": {
+        "id": "powerfulrings:ponerite_block",
+        "count": 1
+    }
+}

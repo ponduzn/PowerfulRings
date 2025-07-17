@@ -1,12 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " ##",
-        " /#",
+        "  #",
+        " / ",
         "/  "
     ],
     "key": {
-        "#": "minecraft:netherite_shovel",
+        "#": "powerfulrings:ponerite_ingot",
         "/": "minecraft:blaze_rod"
     },
     "result": {

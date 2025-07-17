@@ -12,5 +12,15 @@
   "item.powerfulrings.ponerite_sword": "Ponerite Sword",
   "item.powerfulrings.ponerite_axe": "Ponerite Axe",
   "item.powerfulrings.ponerite_shovel": "Ponerite Shovel",
-  "item.powerfulrings.ponerite_hoe": "Ponerite Hoe"
+  "item.powerfulrings.ponerite_hoe": "Ponerite Hoe",
+  "block.powerfulrings.ponerite_ore": "Ponerite Ore",
+  "block.powerfulrings.ponerite_block": "Ponerite Block",
+  "item.powerfulrings.ponerite_ingot": "Ponerite Ingot",
+  "item.powerfulrings.raw_ponerite": "Raw Ponerite",
+  "tag.item.powerfulrings.ponerite_repair": "Repair Ponerite",
+  "tag.item.powerfulrings.needs_ponerite_tool": "Needs Ponerite Tool",
+  "tag.item.powerfulrings.incorrect_for_ponerite_tool": "Incorrect tool for Ponerite",
+  "block.powerfulrings.ponerite_ore_deepslate": "Deepslate Ponerite Ore",
+  "block.powerfulrings.ponerite_ore_end": "End Ponerite Ore",
+  "block.powerfulrings.ponerite_ore_nether": "Nether Ponerite Ore"
 }

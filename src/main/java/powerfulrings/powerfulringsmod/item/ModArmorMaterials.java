@@ -7,11 +7,11 @@ import net.minecraft.item.equipment.EquipmentAsset;
 import net.minecraft.item.equipment.EquipmentAssetKeys;
 import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 import powerfulrings.powerfulringsmod.ModMain;
+import powerfulrings.powerfulringsmod.util.ModTags;
 
 public class ModArmorMaterials {
 
@@ -32,7 +32,7 @@ public class ModArmorMaterials {
     SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 
     5.0F, 
     0.8F, 
-    ItemTags.NETHERITE_TOOL_MATERIALS, 
+    ModTags.Items.PONERITE_REPAIR, 
     PONERITE_MATERIAL_KEY
     );
 }

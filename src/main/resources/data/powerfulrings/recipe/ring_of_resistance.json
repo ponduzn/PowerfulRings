@@ -8,7 +8,7 @@
     "key": {
         "#": "minecraft:emerald",
         "G": "minecraft:gold_nugget",
-        "g": "minecraft:gold_ingot",
+        "g": "powerfulrings:ponerite_ingot",
         "L": "minecraft:gold_block"
     },
     "result": {

@@ -1,0 +1,6 @@
+// 1.21.7	-999999999-01-01T00:00:00	Powerful Rings/Block Loot Tables
+3279da413ac17649129798fdcffc0e55a0a17ab7 data/powerfulrings/loot_table/blocks/ponerite_block.json
+d7b117308ab97afe7fd228ea2ecf06723f329e3a data/powerfulrings/loot_table/blocks/ponerite_ore.json
+b7fe8ffdc49ba7192c85480bed79ff6a3829ee96 data/powerfulrings/loot_table/blocks/ponerite_ore_deepslate.json
+ab12382931f04bf6d874222885777e33e5f623b7 data/powerfulrings/loot_table/blocks/ponerite_ore_end.json
+14224db8f5615caf3e48c5a2a07ed81f729e1dbc data/powerfulrings/loot_table/blocks/ponerite_ore_nether.json

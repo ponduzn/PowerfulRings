@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "ponerite_ingot",
+  "ingredient": "powerfulrings:ponerite_ore",
+  "result": {
+    "id": "powerfulrings:ponerite_ingot"
+  }
+}

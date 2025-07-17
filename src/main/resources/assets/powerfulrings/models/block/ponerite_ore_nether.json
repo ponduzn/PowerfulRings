@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "powerfulrings:block/ponerite_ore_nether"
+  }
+}

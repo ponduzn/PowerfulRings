@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "powerfulrings:item/raw_ponerite"
+  }
+}

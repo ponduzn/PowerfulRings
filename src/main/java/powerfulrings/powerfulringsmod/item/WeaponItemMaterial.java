@@ -2,15 +2,15 @@ package powerfulrings.powerfulringsmod.item;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.registry.tag.BlockTags;
-import net.minecraft.registry.tag.ItemTags;
+import powerfulrings.powerfulringsmod.util.ModTags;
 
 public class WeaponItemMaterial {
     public static final ToolMaterial PONERITE_TOOL_MATERIAL = new ToolMaterial(
-		BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
+		BlockTags.SWORD_EFFICIENT,
 		5000,
 		1.0F,
 		5.5F,
 		25,
-		ItemTags.NETHERITE_TOOL_MATERIALS
+		ModTags.Items.PONERITE_REPAIR
 );
 }
