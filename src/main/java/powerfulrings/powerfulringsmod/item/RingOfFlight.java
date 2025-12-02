@@ -31,7 +31,7 @@ public class RingOfFlight extends Item {
 
     @Override
     public ActionResult use(World world, PlayerEntity player, Hand hand) {
-        if (!world.isClient) {
+        if (!world.isClient()) {
             UUID id = player.getUuid();
             if (toggledPlayers.contains(id)) {
                 disableFlight(player);

@@ -47,7 +47,7 @@ public class BaseEffectRing extends Item {
 
     @Override
     public ActionResult use(World world, PlayerEntity player, Hand hand) {
-        if (!world.isClient) {
+        if (!world.isClient()) {
             toggle();
         }
         return ActionResult.SUCCESS;
